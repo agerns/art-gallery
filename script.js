@@ -1,6 +1,6 @@
 // Fetch all images from the 'images' folder and display them
 const images = [
-  { src: "images/abstract1.jpg", category: "abstract", title: "Abstract 1" },
+  { src: "images/balance_2.jpg", category: "abstract", title: "Balance 2" },
   { src: "images/mountain1.jpg", category: "mountain", title: "Mountain 1" },
   { src: "images/abstract2.jpg", category: "abstract", title: "Abstract 2" },
   { src: "images/mountain2.jpg", category: "mountain", title: "Mountain 2" },
