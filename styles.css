@@ -6,9 +6,9 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif; /* Modern minimalist font */
+  font-family: 'Inter', sans-serif;
   background-color: #fff;
-  color: #333; /* Dark grey for text */
+  color: #333;
   line-height: 1.6;
   padding: 0;
   margin: 0;
@@ -33,7 +33,7 @@ header nav ul li {
 header nav ul li a {
   color: #333;
   text-decoration: none;
-  font-weight: 300; /* Lighter font weight */
+  font-weight: 300;
   font-size: 16px;
   text-transform: lowercase;
   letter-spacing: 1px;
@@ -42,7 +42,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  border-bottom: 2px solid #333; /* Underline on hover */
+  border-bottom: 2px solid #333;
 }
 
 main {
@@ -66,6 +66,7 @@ h1 {
   font-weight: 300;
   letter-spacing: 1px;
   margin-top: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 h2 {
@@ -73,6 +74,7 @@ h2 {
   font-weight: 300;
   letter-spacing: 1px;
   margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
 }
 
 footer {
@@ -81,6 +83,7 @@ footer {
   background: none;
   color: #333;
   font-size: 14px;
+  font-family: 'Inter', sans-serif;
 }
 
 .filters {
@@ -93,17 +96,17 @@ footer {
   color: #333;
   padding: 10px 20px;
   margin: 0 10px;
-  border: 1px solid #333;
+  border: none;
   cursor: pointer;
   text-transform: lowercase;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;
+  transition: border-bottom 0.2s ease;
 }
 
 .filters button:hover {
-  background-color: #333;
-  color: white;
+  border-bottom: 1px solid #333;
 }
 
 .gallery {
@@ -119,8 +122,9 @@ footer {
 }
 
 .grid-item img {
-  width: 100%;
-  height: auto;
+  width: 5cm;
+  height: 5cm;
+  object-fit: contain;
   display: block;
   border-radius: 10px;
   cursor: pointer;
@@ -128,7 +132,7 @@ footer {
 }
 
 .grid-item img:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05);
 }
 
 .modal {
@@ -144,7 +148,8 @@ footer {
 }
 
 .modal-content img {
-  max-width: 90%;
+  width: auto;
+  max-width: 10cm;
   max-height: 90%;
   border-radius: 10px;
 }
@@ -157,4 +162,3 @@ footer {
   font-size: 30px;
   cursor: pointer;
 }
-
