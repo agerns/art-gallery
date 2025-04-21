@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Agerns Art Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Filter Buttons -->
+    <section class="filters">
+      <button id="all" onclick="filterGallery('all')">All</button>
+      <button id="mountain" onclick="filterGallery('mountain')">Mountain</button>
+      <button id="abstract" onclick="filterGallery('abstract')">Abstract</button>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery">
+      <div id="gallery-grid" class="grid-container">
+        <!-- JavaScript will populate this section -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Agerns Art Gallery</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
